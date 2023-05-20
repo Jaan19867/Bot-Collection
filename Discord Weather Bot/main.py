@@ -7,7 +7,7 @@ token = 'DISCORD_BOT_TOKEN'
 api_key = 'OPEN_WEATHER_MAP_API_KEY'
 client = discord.Client()
 command_prefix = '!w'
-
+# hello  to every one  ;
 @client.event
 async def on_ready():
     await client.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name='!w [location]'))
